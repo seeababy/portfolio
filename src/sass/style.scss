@@ -1,0 +1,29 @@
+@use "base/variables";
+@use "base/mixins";
+@use "blocks/promo";
+@use "blocks/title";
+@use "blocks/button";
+@use "blocks/sidepanel";
+@use "blocks/menu";
+@use "blocks/about";
+@use "blocks/divider";
+@use "blocks/resume";
+@use "blocks/skills";
+@use "blocks/portfolio";
+@use "blocks/price";
+@use "blocks/contacts";
+@use "blocks/media";
+
+
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.disable-scroll {
+    overflow: hidden;
+}
