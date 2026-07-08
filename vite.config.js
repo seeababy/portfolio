@@ -8,7 +8,7 @@ export default defineConfig({
 	root: resolve(__dirname, 'src'),
 	base: './',
 	build: {
-		outDir: resolve(__dirname, 'dist'),
+		outDir: resolve(__dirname, 'docs'),
 		emptyOutDir: true,
 		rollupOptions: {
 			input: {
